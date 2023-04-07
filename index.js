@@ -21,8 +21,11 @@ app.set('view engine', 'ejs');
 // Importa as rotas do arquivo "routes.js"
 //const routes = require('./routes');
 
-app.get('/' , function (req,res){
+/*app.get('/' , function (req,res){
     res.send('Bem-vindo ao meu site dinâmico!')// envia uma mensagem para o usuário
+});*/
+app.get('/', function(req, res) {
+    res.render('index');
 });
 
 // Usa as rotas definidas no arquivo "routes.js"

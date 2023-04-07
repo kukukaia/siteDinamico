@@ -10,4 +10,7 @@ depois instalar
 
 npm install express ejs
 
+npm install ejs
+
+
 
